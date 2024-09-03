@@ -70,8 +70,8 @@ class App extends Component {
         <input placeholder='Enter Your Name' data-testid="input2" value={name2} onChange={(e)=>{
                setName2(e.target.value)
         }} />
-        <button onClick={checkDetails} data-testid="calculate_relationship">Check Desicion</button>
-        <button data-testid="clear" onClick={clearStatus}>clear</button>
+        <button onClick={checkDetails} data-testid="calculate_relationship">Calculate Relationship Future</button>
+        <button data-testid="clear" onClick={clearStatus}>Clear</button>
         <h3 data-testid="answer">{ans}</h3>
        </div>
        </div>
