@@ -2,9 +2,9 @@ import React, {Component, useState} from "react";
 import '../styles/App.css';
 import { useState } from "react"
 
-class App extends Component {
 
-    render() {
+
+    const App=()=>{
         const[name1,setName1]=useState('')
         const[name2,setName2]=useState('')
         const[ans,setAns]=useState('')
@@ -80,7 +80,7 @@ class App extends Component {
        
         
     }
-}
+
 
 
 export default App;
